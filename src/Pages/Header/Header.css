@@ -1,0 +1,20 @@
+a.nav-title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000a6;
+    text-decoration: none;
+}
+
+.nav-menu a {
+    color: #000000ba;
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0px 5px;
+    transition: .4s;
+}
+
+.nav-menu a:hover {
+    color: #ff9100;
+}

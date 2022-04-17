@@ -1,0 +1,25 @@
+a.forget-password {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+a.forget-password:hover {
+    color: #ffa601;
+}
+
+.or-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.or-conteiner div {
+    border: 1px solid gold;
+    height: 0px;
+}
+
+.or-conteiner p {
+    padding: 8px;
+    margin-top: 10px;
+}

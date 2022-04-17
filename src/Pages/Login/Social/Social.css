@@ -1,0 +1,9 @@
+.register {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffa601;
+}
+
+.register:hover {
+    color: #ffa601;
+}
