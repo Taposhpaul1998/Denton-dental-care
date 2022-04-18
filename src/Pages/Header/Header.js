@@ -15,7 +15,6 @@ const Header = () => {
                             <Link to="/">Home</Link>
                             <a href="/#services">Services</a>
                             <Link to="/checkout">Checkout</Link>
-                            <Link to="/appointment"> Appointment</Link>
                             <Link to="/about">About</Link>
                             <Link to="/signup">Signup</Link>
                             <Link to="/Login">Login</Link>
