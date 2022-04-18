@@ -5,6 +5,8 @@ import { useSignInWithEmailAndPassword, useSendPasswordResetEmail } from 'react-
 import Social from '../Social/Social';
 import './Login.css';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
 
@@ -37,7 +39,7 @@ const Login = () => {
     const resetPassword = async () => {
         const email = emailRef.current.value;
         await sendPasswordResetEmail(email);
-        alert('Sent email');
+        toast('Sent email');
     }
 
     return (
@@ -68,6 +70,7 @@ const Login = () => {
                 <div className='w-50' ></div>
             </div>
             <Social></Social>
+            <ToastContainer />
         </div>
 
     );
