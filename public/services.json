@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Cosmetic Dentistry",
+        "details": "Cosmetic dentistry is generally used to refer to any dental work that improves the appearance of teeth, gums and/or bite...",
+        "price": 550,
+        "Img": "https://i.ibb.co/DKj2fCR/services-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Quick Examination",
+        "details": "Quick Exam lets you enter important information directly into the patients chart, and you can see your exam...",
+        "price": 400,
+        "Img": "https://i.ibb.co/LZ0FkJb/services-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Best Care",
+        "details": "Our are highly trained in all phases of dentistry. We deal with many implant systems on the market such as Nobel Biocare...",
+        "price": 250,
+        "Img": "https://i.ibb.co/Lrj7RbV/services-3.jpg"
+    }
+]

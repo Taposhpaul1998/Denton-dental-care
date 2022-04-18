@@ -1,0 +1,11 @@
+.services-conteiner {
+    padding: 52px 0px;
+    background-color: #00ffff38;
+}
+
+h2.services-title {
+    font-size: 44px;
+    font-weight: 500;
+    color: #e99800;
+    padding-bottom: 37px;
+}
