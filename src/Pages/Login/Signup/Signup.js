@@ -38,17 +38,17 @@ const Signup = () => {
                 <h2 className='text-center text-primary'>Please Register</h2>
                 <Form onSubmit={handelSignup}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>Your aame</Form.Label>
-                        <Form.Control ref={nameRef} type="name" placeholder="Your aame" />
+                        <Form.Label>Your Name</Form.Label>
+                        <Form.Control ref={nameRef} type="name" placeholder="Your Name" required />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
-                        <Form.Control ref={emailRef} type="email" placeholder="Enter email" />
+                        <Form.Control ref={emailRef} type="email" placeholder="Enter email" required />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
-                        <Form.Control ref={passwordRef} type="password" placeholder="Password" />
+                        <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicCheckbox">
                         <Form.Check onClick={() => setAgree(!agree)} type="checkbox" className={agree ? "text-primary" : ''} label="Accept Trams and Condition" />

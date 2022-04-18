@@ -14,7 +14,7 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <div id='#services' className='services-conteiner'>
+        <div id='services' className='services-conteiner'>
             <h2 className='text-center services-title'> Services</h2>
             <Container>
                 <CardGroup className='row'>

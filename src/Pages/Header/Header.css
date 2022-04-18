@@ -18,3 +18,7 @@ a.nav-title {
 .nav-menu a:hover {
     color: #ff9100;
 }
+
+.logout {
+    cursor: pointer;
+}
