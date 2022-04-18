@@ -23,6 +23,7 @@ const Header = () => {
                             <a href="home#services">Services</a>
                             <Link to="/checkout">Checkout</Link>
                             <Link to="/about">About</Link>
+                            <Link to="/blogs">Blogs</Link>
                             <Link to="/signup">Signup</Link>
                             {
                                 user ?
