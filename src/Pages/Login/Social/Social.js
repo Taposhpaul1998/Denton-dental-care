@@ -7,6 +7,7 @@ import './Social.css'
 
 const Social = () => {
     const [signInWithGoogle, user, error] = useSignInWithGoogle(auth);
+
     const navigate = useNavigate();
     let errorElement;
 
