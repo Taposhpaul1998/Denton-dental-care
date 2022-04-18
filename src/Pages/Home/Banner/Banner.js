@@ -1,10 +1,16 @@
 import React from 'react';
 import { Button, Carousel } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import banner1 from '../../../imges/banner/banner (1).jpg'
 import banner2 from '../../../imges/banner/banner (2).jpg'
 import './Banner.css'
 
 const Banner = () => {
+    const navigate = useNavigate();
+    const handelAppointment = () => {
+        navigate("/checkout")
+    }
+
     return (
         <div>
             <Carousel fade>
@@ -16,9 +22,9 @@ const Banner = () => {
                     />
                     <Carousel.Caption>
                         <div className='banner-info'>
-                            <h3>Denton Denter care</h3>
+                            <h3>Sajib Denter care</h3>
                             <p>Great Smile For Healthy Lifestyle!</p>
-                            <Button className='appointment'> Make an Appointment</Button>
+                            <Button onClick={handelAppointment} className='appointment'> Make an Appointment</Button>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -31,9 +37,9 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <div className='banner-info'>
-                            <h3>Denton Denter care</h3>
+                            <h3>Sajib Denter care</h3>
                             <p>Great Smile For Healthy Lifestyle!</p>
-                            <Button className='appointment'> Make an Appointment</Button>
+                            <Button onClick={handelAppointment} className='appointment'> Make an Appointment</Button>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

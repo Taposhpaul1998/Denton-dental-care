@@ -1,10 +1,10 @@
-a.forget-password {
+p.forget-password {
     text-decoration: none;
     cursor: pointer;
     color: #000000;
 }
 
-a.forget-password:hover {
+p.forget-password:hover {
     color: #ffa601;
 }
 
